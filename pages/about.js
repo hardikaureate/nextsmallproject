@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Navbar from './Components/Navbar'
@@ -10,16 +10,16 @@ const About = () => {
     }
     useEffect(() => {
         //router.push('/About')
-        
+
     }, [])
     return (
         <div>
             <Navbar />
             <h1>About Page</h1>
-            <div><button><Link href="/"><a> Go to Homepage <b>LINK</b></a></Link></button></div>
-            <Link href="contact">Go to Contact using Link without <b>A</b></Link>
+            <div><button><Link href="/"><a> Go to Homepage </a></Link></button></div>
+            <Link href="contact">Go to Contact</Link>
             <div><button onClick={handleInp}>Blog Using Function</button></div>
-            <div><a onClick={()=>router.push("/contact")}>Contact using <b>A</b> onClick</a></div>
+            <div><a onClick={() => router.push("/contact")}>Contact</a></div>
         </div>
     )
 }
