@@ -1,16 +1,117 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    ul.Linking {
+        list-style: none;
+        display: flex;
+        background: azure;
+        padding: 0px 10px;
+        width: 32%;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: 1px solid cyan;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    ul.Linking li {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    
+    ul.Linking li:hover {
+        background: black;
+        color: #fff;
+    }
+    
+    .error h1 {
+        color: #222;
+        font-size: 220px;
+        letter-spacing: 10px;
+        margin: 0px;
+        font-weight: 700;
+        text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+    }
+    
+    .error h1>span {
+        text-shadow: 2px 2px 0px #da0, -2px -2px 0px #da0, 0px 0px 8px #ff8700;
+    }
+    
+    .errorpage {
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: middle;
+        align-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+    
+    .ssr-styles {
+        background: aliceblue;
+        display: flex;
+        margin-top: 20px !important;
+        padding: 0px 50px;
+        width: 1140px;
+        margin: 0 auto;
+        background: azure;
+        margin-bottom: 20px !important;
+    }
+    
+    .ssr-styles h3 {
+        margin-right: 20px;
+        border: 1px solid #000;
+        background: black;
+        border-radius: 25px;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    .ssr-styles h2 {
+        align-items: center;
+        display: flex;
+    }
+    
+    .ssr-styles-inside {
+        background: aliceblue;
+        margin-top: 20px !important;
+        padding: 20px 50px;
+        width: 1140px;
+        margin: 0 auto;
+        background: azure;
+        margin-bottom: 20px !important;
+    }
+    
+    .ssr-styles-inside h3 {
+        margin-right: 20px;
+        border: 1px solid #000;
+        background: black;
+        border-radius: 25px;
+        padding: 10px;
+        color: #fff;
+        width: 3%;
+    }
+    
+    .ssr-styles-inside h2 {
+        align-items: center;
+        display: flex;
+    }
