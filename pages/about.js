@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar'
 const About = () => {
     const router = useRouter()
     const handleInp = () => {
-        router.push('/About')
+        router.push('/blog')
     }
     useEffect(() => {
         //router.push('/About')
